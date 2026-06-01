@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Heart Disease Prediction</title>
+</head>
+
+<body>
+
+<h1>Heart Disease Prediction System</h1>
+<h2>TEST PAGE WORKING</h2>
+
+<form action="/predict" method="post">
+
+    Age:
+    <input type="number" name="age"><br><br>
+
+    Sex (Male=1 Female=0):
+    <input type="number" name="sex"><br><br>
+
+    Chest Pain Type:
+    <input type="number" name="cp"><br><br>
+
+    Resting BP:
+    <input type="number" name="trestbps"><br><br>
+
+    Cholesterol:
+    <input type="number" name="chol"><br><br>
+
+    Fasting Blood Sugar:
+    <input type="number" name="fbs"><br><br>
+
+    ECG Result:
+    <input type="number" name="restecg"><br><br>
+
+    Max Heart Rate:
+    <input type="number" name="thalach"><br><br>
+
+    Exercise Angina:
+    <input type="number" name="exang"><br><br>
+
+    Old Peak:
+    <input type="number" step="0.1" name="oldpeak"><br><br>
+
+    Slope:
+    <input type="number" name="slope"><br><br>
+
+    CA:
+    <input type="number" name="ca"><br><br>
+
+    Thal:
+    <input type="number" name="thal"><br><br>
+
+    <button type="submit">Predict</button>
+
+</form>
+
+<h2>{{ result }}</h2>
+
+</body>
+</html>
+<h2>{{ result }}</h2>
